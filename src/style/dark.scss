@@ -1,0 +1,150 @@
+.app.dark {
+  background-color: #111;
+  color: rgb(222, 219, 219);
+  .moon {
+    color: white;
+  }
+
+  .chartGrid {
+    stroke: rgba(144, 142, 142, 0.219);
+  }
+  .table {
+    background-color: #111;
+
+    .tableCell {
+      color: rgb(166, 164, 164);
+    }
+  }
+  .navbar {
+    color: rgb(205, 203, 203);
+    border-color: #333;
+
+    .search {
+      border-color: rgb(79, 79, 79);
+    }
+  }
+  .sidebar {
+    background-color: #111;
+    border-color: grey;
+
+    .top {
+      .logo {
+        color: rgb(197, 194, 194);
+      }
+    }
+    hr {
+      border-color: #333;
+    }
+    ul {
+      li {
+        &:hover {
+          background-color: rgba(56, 55, 55, 0.389);
+        }
+      }
+      span {
+        color: rgb(232, 231, 231);
+      }
+    }
+
+    .coloroption {
+      &:nth-child(1) {
+        background-color: #000;
+      }
+
+      &:nth-child(2) {
+        background-color: #fff;
+      }
+    }
+  }
+  .datatable {
+    .datatableTitle {
+      color: rgb(175, 175, 175);
+    }
+    .datagrid {
+      color: rgb(198, 198, 198);
+    }
+    .viewbutton {
+      color: rgb(211, 210, 210);
+      background-color: rgba(0, 0, 255, 0.713);
+    }
+    .deletebutton {
+      color: rgb(211, 210, 210);
+      background-color: crimson;
+    }
+    .cellWithStatus {
+      &.active {
+        color: rgb(214, 213, 213);
+        background-color: rgba(13, 163, 13, 0.802);
+      }
+      &.pending {
+        color: rgb(214, 213, 213);
+        background-color: rgba(218, 165, 32, 0.615);
+      }
+      &.passive {
+        color: rgb(214, 213, 213);
+        background-color: rgba(220, 20, 60, 0.702);
+      }
+    }
+  }
+  input {
+    background-color: transparent;
+  }
+
+  .featured {
+    .title {
+      color: rgb(195, 192, 192);
+    }
+  }
+
+  .table {
+    .tableCell {
+      color: rgb(217, 215, 215);
+    }
+    .status {
+      padding: 5px;
+      border-radius: 5px;
+
+      &.Approved {
+        color: rgb(214, 213, 213);
+        background-color: rgba(13, 163, 13, 0.802);
+      }
+      &.Pending {
+        color: rgb(214, 213, 213);
+        background-color: rgba(218, 165, 32, 0.615);
+      }
+      &.Cancelled {
+        color: rgb(214, 213, 213);
+        background-color: rgba(220, 20, 60, 0.702);
+      }
+    }
+  }
+  .single {
+    .title{
+      color: rgb(98, 96, 96);
+    }
+    .singleContainer {
+      .top {
+        .left {
+          .editbutton {
+            color: rgb(235, 168, 238);
+            background-color: purple;
+          }
+          .item {
+            .details {
+              .itemTitle{
+                color: rgb(218, 218, 218);
+              }
+              .detailItem{
+              .itemKey {
+                color: rgb(212, 212, 212);
+              }
+            .itemValue{
+              color: rgb(123, 124, 125);
+            }}
+            }
+          }
+        }
+      }
+    }
+  }
+}
